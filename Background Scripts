@@ -1,0 +1,13 @@
+gs.info("Hello! Welcome to ServiceNow");
+
+gs.info("Below are all the active incident records for your purpose");
+
+var inc = new GlideRecord("incident");
+inc.addActiveQuery;
+inc.query();
+
+while(inc.next()){
+
+gs.info(inc.getValue("number"));
+
+}

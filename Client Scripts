@@ -1,0 +1,6 @@
+function onLoad() {
+   //Alert Priority field on Incident OnLoad
+   
+alert('Current Incident Priority is: ' + g_form.getValue('priority'));
+
+}

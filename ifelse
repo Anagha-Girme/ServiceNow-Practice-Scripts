@@ -1,0 +1,19 @@
+//if my husband brings cakes for snacks, I will make tea for him or I will just give him water to drink
+
+var cake = 2;
+
+if(cake == 1){
+
+gs.print("Yay! I will make tea");
+
+} else if(cake >= 1){
+
+gs.print("Yay! I will make strong cup of tea");
+
+}
+
+else{
+
+gs.print("Ehh! I will bring water");
+
+}
